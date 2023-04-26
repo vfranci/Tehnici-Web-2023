@@ -1,0 +1,36 @@
+{
+	"cale_galerie":"Resurse/Galerie",
+	"imagini": [
+		{
+			"fisier":"ceai1"
+			
+		},
+		{
+			"fisier":"ceai2"
+		},
+		{
+			"fisier":"splash"
+		},
+		{
+			"fisier":"ceai3.jpg"
+		},
+		{
+			"fisier":"heart.jpg"
+		},
+		{
+			"fisier":"ceai4.jpg"
+		},
+        {
+            "fisier":"roast.jpg"
+        },
+        {
+            "fisier":"ceai5.jpg"
+        },
+        {
+            "fisier":"boabe.jpg"
+        },
+        {
+            "fisier":"ceai6.jpg"
+        }
+	]
+}

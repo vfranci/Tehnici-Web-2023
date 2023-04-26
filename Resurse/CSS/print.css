@@ -1,0 +1,125 @@
+@media print {
+    
+    body::before {
+        content: "";
+        display: block;
+        height: 50px; /* adjust to desired height */
+      }
+      
+
+    #banner{
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 50vw;
+        border: 6px double black;
+        padding: 10px;
+        text-align: right;
+        font-size: 1.2em;
+        
+    }
+
+    #link-top {
+    display: none;
+
+    }
+
+    ul.meniu {
+        display: block;
+        text-align: center;
+        margin: auto;
+        width: 20%;
+        page-break-after: always;
+        color: var(--culoare_text);
+    }
+
+    ul.meniu ul{
+        display: block;
+        text-align: center;
+        margin: auto;
+        width: 20%;
+        color: var(--culoare_text);
+    }
+
+    .table-container {
+        font-size: 65%;
+      }
+
+    .container-iframe {
+        display: none;
+    }
+
+    #link-top {
+        display: none;
+    }
+
+    #end {
+        page-break-before: always;
+    }
+
+    .taburi-iframe, .back-to-top {
+        display: none;
+    }
+
+
+    img, video, iframe, figcaption {
+        display: none;
+    }
+
+    #fig2, #fig1{
+        display: none;
+    }
+
+    #grid-pagina{
+        display: block;
+    }
+
+    a {
+        color: black !important; 
+        text-decoration: none !important; 
+      }
+
+    h1 {
+        
+        text-align: center;
+      }
+
+    footer {
+        page-break-before: always;
+    }
+ 
+
+    #watermark {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 60%;
+        height: 10%;
+        background-color: transparent;
+        color: black;
+        opacity: 0.3;
+        text-align: center;
+        font-size: 2em;
+        font-weight: bold;
+        display: block;
+      }
+
+      @page {
+        size: A4 portrait;
+        margin-left: 2cm;
+        margin-right: 1cm;
+      }
+      
+      @page:right {
+        margin-left: 1cm;
+        margin-right: 2cm;
+      }
+      
+    
+
+}
+  
+ 
+  
+  
